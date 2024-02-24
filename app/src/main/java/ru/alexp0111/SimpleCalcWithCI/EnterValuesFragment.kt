@@ -21,7 +21,7 @@ class EnterValuesFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentEnterValuesBinding.inflate(inflater)
+        _binding = FragmentEnterValuesBinding.inflate(inflater
 
         setupClickListner()
 
