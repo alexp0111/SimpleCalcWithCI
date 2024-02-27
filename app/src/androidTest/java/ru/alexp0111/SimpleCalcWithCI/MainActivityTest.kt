@@ -34,7 +34,7 @@ class MainActivityTest {
     @Test
     fun shouldSumToValues() {
         mActivityRule.launchActivity(null)
-        onView(withId(R.id.et_first_value)).perform(typeText("59"))
+        onView(withId(R.id.et_first_value)).perform(typeText("60"))
         onView(withId(R.id.et_second_value)).perform(typeText("9"))
         onView(withId(R.id.btn_find_sum)).perform(click())
         onView(withId(R.id.txt_result)).check(matches(withText("69.0")))
